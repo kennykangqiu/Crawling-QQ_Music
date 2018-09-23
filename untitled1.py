@@ -19,7 +19,7 @@ import pymongo
 import os
 from urllib.parse import quote
 
-keyword = '漂洋过海来看你'
+keyword = '' #Enter the name of the song you want to download
 
 url = "https://y.qq.com/portal/search.html#page=1&searchid=1&remoteplace=txt.yqq.top&t=song&w=" + quote(keyword)
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36'}
